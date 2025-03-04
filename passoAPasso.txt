@@ -1,0 +1,18 @@
+//O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
+
+
+/*
+1 - fazer função adicionarAmigo()
+    a - deve capturar o valor digitado ao clicar no botão add amigo.
+    b - deve guardar o valor digitado em uma array(lista) na memoria.
+    c - deve rejeitar e enviar mensagem para o usuario avisando que não aceita valores vazios (numeros tambem?)
+
+2 - fazer função SortearAmigo()
+    a - deve escolher um indice do array de nomes.
+    b - deve exibir esse nome na tela.
+
+3 - melhorias
+    a - 
+    b - 
+
+*/
