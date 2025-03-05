@@ -1,7 +1,7 @@
 //O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
 
 
-/*
+
 1 - fazer função adicionarAmigo()
 OK    a - deve capturar o valor digitado ao clicar no botão add amigo.
 OK    b - deve guardar o valor digitado em uma array(lista) na memoria.
@@ -13,17 +13,20 @@ OK    b - deve escolher um indice do array de nomes.
 
 3 - Exibir listaDeAmigos abaixo do campo de texto.
 OK    a - criar campo para exibição.
-    b - a cada novo nome add uma linha embaixo com o mesmo.
+OK    b - a cada novo nome add uma linha embaixo com o mesmo.
 
-4 - fazer função exibirNomeNaTela()
-    a - criar campo para exibição no HTML.
-    b - exibir nome na tela quando clicar no botão sortear amigo.
+4 - Fazer função exibirNomeNaTela().
+OK    a - criar campo para exibição no HTML.
+OK    b - exibir nome na tela quando clicar no botão sortear amigo.
 
-4 - melhorias
+5 - Correções de bugs.
+    a - mensagem de erro quando se inseri menos de 3 amigos, não aparece.
+    b - 
+
+6 - Melhorias.
      a - Evitar que nomes duplicados sejam adicionados.
      b - Evitar que numeros sejam adicionados.
      c - Foca de volta no campo de entrada para facilitar novas adições
      d - Validação mais avançada: Você pode garantir que o nome não contenha caracteres especiais ou números, dependendo das regras do seu sistema.
      e - Limpeza da lista: Se você quiser permitir que o usuário limpe a lista, pode adicionar um botão para remover todos os amigos da lista.
-
-*/
+     f - fazer que o botão de enter acione o botão enter mesmo quando precionado dentro do campoDeInput.

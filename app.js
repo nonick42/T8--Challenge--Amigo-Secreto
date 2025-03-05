@@ -1,6 +1,7 @@
 let listaDeAmigos = [];
 let campoDeInput = document.querySelector('.input-name');
 let campoComListaDeAmigos = document.querySelector('.name-list');
+let campoDoResultado = document.querySelector('.result-list');
 
 function adicionarAmigo() {
     if (campoDeInput.value === '') {
@@ -38,14 +39,18 @@ function atualizarListaDeAmigos() {
 }
 
 function sortearAmigo() {
-    if (listaDeAmigos === 0) {
-        alert('Por favor, insira mais de 1 nome antes de fazer o sorteio!')
+    if (listaDeAmigos < 2) {
+        alert('Por favor, insira mais de 3 nomes antes de fazer o sorteio!')
     } else {
         let indiceAleatorio = Math.floor(Math.random() * listaDeAmigos.length);
         let amigoSorteado = listaDeAmigos[indiceAleatorio];
-
+        exibirNomeSorteado(amigoSorteado);
 
         //DEBUG
         console.log(amigoSorteado);
     }
+}
+
+function exibirNomeSorteado(nomeASerExibido) {
+    campoDoResultado.innerHTML = `<li>Seu amigo secreto é o(a) ${nomeASerExibido}!`
 }
