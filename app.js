@@ -23,3 +23,17 @@ function adicionarAmigo() {
 
 }
 
+function atualizarListaDeAmigos() {
+    //Define o valor de campoComListaDeAmigos como 'vazio'.
+    campoComListaDeAmigos.innerHTML = '';
+    //percorre a listaDeAmigos a cada interação com a função e começa uma arrow function.
+    listaDeAmigos.forEach((novoAmigo) => {
+        //guarda li como um elemento LI em HTML.
+        let li = document.createElement('li');
+        //Atribui o valor da var novoAmigo no elemento li.
+        li.textContent = novoAmigo;
+        //pega no campoComListaDeAmigos
+        campoComListaDeAmigos.appendChild(li)
+    })
+}
+
