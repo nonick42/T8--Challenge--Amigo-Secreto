@@ -1,5 +1,5 @@
 let listaDeAmigos = [];
-let  = document.querySelector('.input-name');
+let campoDeInput = document.querySelector('.input-name');
 let campoComListaDeAmigos = document.querySelector('.name-list');
 
 function adicionarAmigo() {
