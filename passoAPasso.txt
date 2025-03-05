@@ -3,16 +3,27 @@
 
 /*
 1 - fazer função adicionarAmigo()
-    a - deve capturar o valor digitado ao clicar no botão add amigo.
-    b - deve guardar o valor digitado em uma array(lista) na memoria.
-    c - deve rejeitar e enviar mensagem para o usuario avisando que não aceita valores vazios (numeros tambem?)
+OK    a - deve capturar o valor digitado ao clicar no botão add amigo.
+OK    b - deve guardar o valor digitado em uma array(lista) na memoria.
+OK    c - deve rejeitar e enviar mensagem para o usuario avisando que não aceita valores vazios (numeros tambem?)
 
-2 - fazer função SortearAmigo()
-    a - deve escolher um indice do array de nomes.
-    b - deve exibir esse nome na tela.
+2 - fazer função sortearAmigo()
+OK    a - verificar se o tamanho da listaDeAmigos é 0.
+OK    b - deve escolher um indice do array de nomes.
 
-3 - melhorias
-    a - 
-    b - 
+3 - Exibir listaDeAmigos abaixo do campo de texto.
+OK    a - criar campo para exibição.
+    b - a cada novo nome add uma linha embaixo com o mesmo.
+
+4 - fazer função exibirNomeNaTela()
+    a - criar campo para exibição no HTML.
+    b - exibir nome na tela quando clicar no botão sortear amigo.
+
+4 - melhorias
+     a - Evitar que nomes duplicados sejam adicionados.
+     b - Evitar que numeros sejam adicionados.
+     c - Foca de volta no campo de entrada para facilitar novas adições
+     d - Validação mais avançada: Você pode garantir que o nome não contenha caracteres especiais ou números, dependendo das regras do seu sistema.
+     e - Limpeza da lista: Se você quiser permitir que o usuário limpe a lista, pode adicionar um botão para remover todos os amigos da lista.
 
 */
