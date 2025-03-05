@@ -37,3 +37,15 @@ function atualizarListaDeAmigos() {
     })
 }
 
+function sortearAmigo() {
+    if (listaDeAmigos === 0) {
+        alert('Por favor, insira mais de 1 nome antes de fazer o sorteio!')
+    } else {
+        let indiceAleatorio = Math.floor(Math.random() * listaDeAmigos.length);
+        let amigoSorteado = listaDeAmigos[indiceAleatorio];
+
+
+        //DEBUG
+        console.log(amigoSorteado);
+    }
+}
