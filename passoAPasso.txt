@@ -25,8 +25,10 @@ OK    b - exibir nome na tela quando clicar no botão sortear amigo.
 
 6 - Melhorias.
      a - Evitar que nomes duplicados sejam adicionados.
-     b - Evitar que numeros sejam adicionados.
      c - Foca de volta no campo de entrada para facilitar novas adições
      d - Validação mais avançada: Você pode garantir que o nome não contenha caracteres especiais ou números, dependendo das regras do seu sistema.
      e - Limpeza da lista: Se você quiser permitir que o usuário limpe a lista, pode adicionar um botão para remover todos os amigos da lista.
      f - fazer que o botão de enter acione o botão enter mesmo quando precionado dentro do campoDeInput.
+     g - Sortear automaticamente: O site realiza o sorteio e mostra quem tirou quem.
+     h - Evitar auto-sorteio: Ninguém pode tirar a si mesmo.
+     i - Exibir resultado individualmente: Para manter o suspense, os participantes podem visualizar seus sorteios separadamente.
